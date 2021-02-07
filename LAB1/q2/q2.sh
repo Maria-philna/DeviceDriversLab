@@ -1,4 +1,11 @@
+#A shell script to take date as input and give day as output
+echo "Enter the date in the format YYYY-MM-DD"
+read d
+echo "Day is:"
+date -d "$d" +%A
+
 #A shell script to input two numbers and perform arithmentic operation, comparison operations.
+echo ""
 echo "Enter first number"
 read x
 echo "Enter second number"
