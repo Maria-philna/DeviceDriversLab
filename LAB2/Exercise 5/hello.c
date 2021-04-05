@@ -2,9 +2,6 @@
 #include <linux/kernel.h>    // included for KERN_INFO
 #include <linux/init.h>      // included for __init and __exit macros
 
-//MODULE_LICENSE("GPL");
-//MODULE_AUTHOR("Lakshmanan");
-//MODULE_DESCRIPTION("A Simple Hello World module");
 
 static int __init hello_init(void)
 {
