@@ -1,1 +1,0 @@
-cmd_/home/maria/DeviceDriversLab/LAB_EXAM/Q2_PART_A/q2.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/maria/DeviceDriversLab/LAB_EXAM/Q2_PART_A/q2.ko /home/maria/DeviceDriversLab/LAB_EXAM/Q2_PART_A/q2.o /home/maria/DeviceDriversLab/LAB_EXAM/Q2_PART_A/q2.mod.o ;  true
